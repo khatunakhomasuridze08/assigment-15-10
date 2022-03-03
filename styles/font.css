@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('../fonts/BrandonGrotesque-Black.ttf') format('truetype'),
+         url('../fonts/BrandonGrotesque-Black.woff') format('woff'),
+         url('../fonts/BrandonGrotesque-Black.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial.ttf') format('truetype'),
+         url('../fonts/Arial.woff') format('woff'),
+         url('../fonts/Arial.woff2') format('woff2');
+}

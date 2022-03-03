@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+header a {
+    border: 8px solid #000000;
+    border-radius: 50%;
+    margin-top: 23px;
+    margin-left: 27px;
+    padding: 5px;
+}
+
+.res_menu {
+    display: none;
+    flex-direction: column;
+}
+
+.res_menu span {
+    width: 30px;
+    height: 5px;
+    margin: 5px 0;
+    background-color: black;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-left: 90px;  
+}
+
+.content {
+    width: 831px;
+    
+}
+.content_title {
+    font-family: 'Brandon Grotesque';
+    font-size: 30px;
+    color:#111111;
+    letter-spacing: 9px;
+    margin-bottom: 60px;
+}
+
+.content_descr {
+    font-size: 32.7px;
+    color: #111111;
+    margin-bottom: 60px;
+}
+
+.content_descr2 {
+    font-size: 25px;
+    color: #959595;
+}
+
+.left_right_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 67px;
+}
+
+.left_container {
+    background-color: aqua;
+    width: 500px;
+}
+
+.left_container_title {
+    font-family:'Arial';
+    font-size: 11px;
+    color: #111111;
+    margin-bottom: 30px;
+}
+
+.left_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left_list_link {
+    display: inline-block;
+    font-family:'Brandon Grotesque';
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 9px 16px 7px;
+    background-color: #0865DE;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: #0865DE;
+}
+
+.right_container {
+    background-color: orange;
+    width: 500px;
+}
+
+.right_container_title {
+    font-family:'Arial';
+    font-size: 11px;
+    color: #111111;
+    margin-bottom: 30px;
+}
+
+.right_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right_list_link {
+    display: inline-block;
+    font-family:'Brandon Grotesque';
+    font-size: 14px;
+    color: #000000;
+    padding: 9px 16px 7px;
+    background-color: #FFFFFF;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+
+@media (max-width: 1024px) {
+    .left_right_container {
+        flex-direction: column;
+    }
+
+    .right_container {
+        width: 100%;
+    }
+
+    .left_container {
+        width: 100%;
+    }
+
+    .content {
+        width: 314px;
+    }
+
+    .res_menu {
+        display: flex;
+    }
+
+   
+   
+  
+}
+
+@media (max-width: 768px) {
+
+}
